@@ -1,0 +1,7 @@
+.box {
+    background-color: #ccc;
+}
+
+.box:nth-child(2n+1) {
+    background-color: #aaa;
+}
