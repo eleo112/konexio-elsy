@@ -1,0 +1,18 @@
+.box {
+    text-align: center;
+    padding: 10;
+    height: 190;
+}
+
+.box:nth-child(even) {
+    background-color: #ccc;
+}
+
+.box:nth-child(odd) {
+    background-color: #aaa;
+}
+
+.box .watercounter {
+    background-color: #3A85FF;
+    color: white;
+}

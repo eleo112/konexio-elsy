@@ -1,5 +1,6 @@
 import React from 'react';
 import Person from './components/Person';
+import HeartRate from './components/HeartRate';
 
 const MIN_TEMPERATURE = -20;
 // const MAX_TEMPERATURE = 40;
@@ -11,9 +12,10 @@ const MIN_STEP = 0;
 class App extends React.Component {
   render() {
     return (
-      <div className="containerFluid">
+      <div className="container-fluid">
         <Person />
-        <p>Battements de coeur: {MIN_HEART}</p>
+        <HeartRate heart={MIN_HEART} />
+        {/* <p>Battements de coeur: {MIN_HEART}</p> */}
         <p>Température: {MIN_TEMPERATURE}</p>
         <p>Nombre de pas: {MIN_STEP}</p>
       </div>
