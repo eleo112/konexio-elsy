@@ -10,6 +10,22 @@ const MIN_STEP = 0;
 // const MAX_STEP = 50000;
 
 class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      water: 0,
+      val: 120,
+      temperature: -10,
+      steps: 3000,
+    };
+  }
+
+  onHeartChange(val) {
+
+  }
+
   render() {
     return (
       <div className="container-fluid">
